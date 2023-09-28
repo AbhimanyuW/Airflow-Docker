@@ -60,3 +60,5 @@ with DAG('user_processing', start_date = datetime(2022, 1, 1),
         python_callable = _process_user
 
     )
+
+    extract_user >> process_user
