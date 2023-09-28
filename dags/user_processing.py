@@ -12,7 +12,7 @@ from datetime import datetime
 def _process_user(ti):
     user = ti.xcom_pull(task_ids = "extract_user")
     user = user['results'][0]
-    processed_user = json-json_normalize({
+    processed_user = json_normalize({
         'firstname':user['name']['first'],
         'lastname':user['name']['last'],
         'country':user['location']['country'],
