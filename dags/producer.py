@@ -1,6 +1,8 @@
 from airflow import DAG, Dataset
 from airflow.decorators import task 
 
+from datetime import datetime
+
 my_file = Dataset("/tmp/my_file.txt")
 
 with DAG(
