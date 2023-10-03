@@ -1,0 +1,85 @@
+[2023-10-03T07:43:51.811+0000] {processor.py:157} INFO - Started process (PID=29) to work on /opt/airflow/dags/consumer.py
+[2023-10-03T07:43:51.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/consumer.py for tasks to queue
+[2023-10-03T07:43:51.815+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:43:51.815+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/consumer.py
+[2023-10-03T07:43:52.047+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:43:51.824+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer.py", line 10
+    schedule = [my_file],
+    ^
+SyntaxError: invalid syntax
+[2023-10-03T07:43:52.049+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer.py
+[2023-10-03T07:43:52.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/consumer.py took 0.258 seconds
+[2023-10-03T07:44:22.366+0000] {processor.py:157} INFO - Started process (PID=88) to work on /opt/airflow/dags/consumer.py
+[2023-10-03T07:44:22.369+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/consumer.py for tasks to queue
+[2023-10-03T07:44:22.374+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:44:22.373+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/consumer.py
+[2023-10-03T07:44:22.384+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:44:22.381+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer.py", line 10
+    schedule = [my_file],
+    ^
+SyntaxError: invalid syntax
+[2023-10-03T07:44:22.384+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer.py
+[2023-10-03T07:44:22.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/consumer.py took 0.068 seconds
+[2023-10-03T07:44:52.933+0000] {processor.py:157} INFO - Started process (PID=147) to work on /opt/airflow/dags/consumer.py
+[2023-10-03T07:44:52.935+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/consumer.py for tasks to queue
+[2023-10-03T07:44:52.938+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:44:52.938+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/consumer.py
+[2023-10-03T07:44:52.950+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:44:52.944+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer.py", line 10
+    schedule = [my_file],
+    ^
+SyntaxError: invalid syntax
+[2023-10-03T07:44:52.951+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer.py
+[2023-10-03T07:44:52.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/consumer.py took 0.053 seconds
+[2023-10-03T07:45:23.212+0000] {processor.py:157} INFO - Started process (PID=206) to work on /opt/airflow/dags/consumer.py
+[2023-10-03T07:45:23.214+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/consumer.py for tasks to queue
+[2023-10-03T07:45:23.224+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:45:23.223+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/consumer.py
+[2023-10-03T07:45:23.245+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:45:23.242+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer.py", line 10
+    schedule = [my_file],
+    ^
+SyntaxError: invalid syntax
+[2023-10-03T07:45:23.246+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer.py
+[2023-10-03T07:45:23.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/consumer.py took 0.139 seconds
+[2023-10-03T07:45:53.888+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/consumer.py
+[2023-10-03T07:45:53.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/consumer.py for tasks to queue
+[2023-10-03T07:45:53.894+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:45:53.894+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/consumer.py
+[2023-10-03T07:45:53.901+0000] {logging_mixin.py:151} INFO - [2023-10-03T07:45:53.899+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/consumer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/consumer.py", line 10
+    schedule = [my_file],
+    ^
+SyntaxError: invalid syntax
+[2023-10-03T07:45:53.901+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/consumer.py
+[2023-10-03T07:45:53.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/consumer.py took 0.043 seconds
